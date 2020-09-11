@@ -24,3 +24,7 @@ except Exception as err:
     print(err)
 
 division(60, "hello")
+
+
+from selenium import webdriver
+driver = webdriver.Chrome()
